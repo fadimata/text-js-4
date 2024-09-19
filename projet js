@@ -1,0 +1,27 @@
+// la creation de mon premier checkbox 
+const box = document.createElement('div');
+body.appendChild(box);
+const label = document.createElement('label');
+const boutton = document.createElement('input');
+boutton.type = 'checkbox';
+boutton.id = 'masquer-refrains';
+const  text = document.createTextNode('Masquer les refrains');
+label.appendChild(boutton);
+label.appendChild(text);
+box.appendChild(label);
+label.style.fontSize = '20px'
+
+
+// la creation de mon deuxieme checkbox 
+const box2 = document.createElement('div');
+body.appendChild(box);
+const label2 = document.createElement('label');
+const boutton2 = document.createElement('input');
+boutton2.type = 'checkbox';
+boutton2.id = 'masquer-paroles';
+const  text2 = document.createTextNode('Masquer les paroles');
+label2.appendChild(boutton2);
+label2.appendChild(text2);
+box.appendChild(label2);
+label2.style.marginLeft = '20px'
+label2.style.fontSize = '20px'
